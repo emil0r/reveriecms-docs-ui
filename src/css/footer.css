@@ -9,7 +9,18 @@ footer.footer {
 .footer p {
   margin: 0.5rem 0;
 }
+.footer p:last-child:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .footer a {
   color: var(--footer-link-font-color);
+}
+.footer img {
+  max-height: 100px;
+  max-width: 100px;
+  float: left;
+  margin-right: 5rem;
 }
